@@ -90,32 +90,23 @@ header.hero {
 
 /* ========= TIMELINE (Our Story) ========= */
 .timeline {
-  position: relative;
-  padding-left: 2.5rem;        /* a little more room before the text */
-  border-left: 3px solid #4378C7;
+  padding-left: 0;
+  border-left: none;
 }
 
 .timeline-step {
-  position: relative;
   margin-bottom: 1.75rem;
 }
 
 .timeline-dot {
-  width: 14px;
-  height: 14px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background-color: #F386A2;
-  border: 3px solid #ffffff;
-  box-shadow: 0 0 0 3px #4378C7;
-  position: absolute;
-  left: -10px;
-  top: 0.35rem;                /* lock it above the first line */
-}
-
-/* push headings & text slightly right so dot isn’t on top of words */
-.timeline-step h5,
-.timeline-step p {
-  margin-left: 0.4rem;
+  box-shadow: 0 0 0 2px #4378C7;
+  margin-right: 0.5rem;
+  vertical-align: middle;
 }
 
 /* ========= PARTY ========= */
