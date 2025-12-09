@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wedding website for high school sweethearts Kylee and Josh. Find our love story, wedding details, wedding party, and RSVP.">
+    <meta name="author" content="Your Name">
+    <title>Kylee &amp; Josh Wedding - Home</title>
+
+    <!-- Bootstrap v5.3.7 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Kylee &amp; Josh</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="story.html">Our Story</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="details.html" id="detailsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Details
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="detailsDropdown">
+                <li><a class="dropdown-item" href="details.html#schedule">Schedule</a></li>
+                <li><a class="dropdown-item" href="details.html#travel">Travel &amp; Lodging</a></li>
+                <li><a class="dropdown-item" href="details.html#faq">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="party.html">Wedding Party</a></li>
+            <li class="nav-item"><a class="nav-link" href="rsvp.html">RSVP</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero text-white" style="background-image: url('kylee-josh-beach-stand.jpg'); background-size: cover; background-position: center;">
+      <div class="hero-overlay w-100">
+        <div class="container py-5 text-center">
+          <h1 class="display-3 fw-bold mb-3">Kylee &amp; Josh</h1>
+          <p class="lead mb-1">High school sweethearts · Forever dance partners</p>
+          <p class="h4 mb-4">
+            <i class="bi bi-calendar-heart me-2"></i>June 14, 2026 &middot; Leesburg, Virginia
+          </p>
+          <a href="rsvp.html" class="btn btn-primary btn-lg me-2">
+            <i class="bi bi-envelope-heart me-2"></i>RSVP
+          </a>
+          <a href="details.html" class="btn btn-outline-primary btn-lg">
+            <i class="bi bi-geo-alt-fill me-2"></i>Event Details
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- WELCOME -->
+    <section class="section-white py-5">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <img src="kylee-josh-prom-steps.jpg" class="img-fluid img-rounded-shadow" alt="Kylee and Josh at prom">
+          </div>
+          <div class="col-md-6">
+            <h2>Welcome to Our Wedding Website</h2>
+            <div class="section-divider"></div>
+            <p class="lead-small">
+              From hallway hellos and Friday night lights to prom, long distance, and beach vacations,
+              we’ve basically grown up side by side. Now we’re so excited to say “I do” surrounded
+              by the people who have cheered us on since high school.
+            </p>
+            <p class="lead-small mb-0">
+              Here you’ll find our story, wedding weekend details, and an easy way to RSVP.
+              Thank you for being part of this next chapter.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK LINKS -->
+    <section class="section-blue py-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <span class="badge-soft mb-2 d-inline-block">Start Here</span>
+                <h3 class="card-title">Our Story</h3>
+                <p class="card-text">Locker neighbors, late-night drives, and everything in between.</p>
+                <a href="story.html" class="btn btn-outline-primary">Read Our Story</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <span class="badge-soft mb-2 d-inline-block">Plan</span>
+                <h3 class="card-title">Wedding Details</h3>
+                <p class="card-text">Where to be, when to be there, and what to wear.</p>
+                <a href="details.html" class="btn btn-outline-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <span class="badge-soft mb-2 d-inline-block">Join Us</span>
+                <h3 class="card-title">RSVP &amp; Registry</h3>
+                <p class="card-text">Let us know you’re coming and find our registry.</p>
+                <a href="rsvp.html" class="btn btn-outline-primary">RSVP Online</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAVORITE PHOTOS -->
+    <section class="section-rose py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">A Few of Our Favorite Moments</h2>
+        <div class="section-divider mx-auto"></div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img src="kylee-josh-boat.jpg" class="img-fluid img-rounded-shadow" alt="On a boat together">
+          </div>
+          <div class="col-md-4">
+            <img src="kylee-josh-beach-sit-1.jpg" class="img-fluid img-rounded-shadow" alt="Sitting on the beach">
+          </div>
+          <div class="col-md-4">
+            <img src="kylee-josh-concert-hug.jpg" class="img-fluid img-rounded-shadow" alt="At a concert together">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4 text-center section-light">
+      <div class="container">
+        <small>&copy; 2026 Kylee &amp; Josh &middot; High School Sweethearts</small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
